@@ -1,0 +1,17 @@
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.avatar img{
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 14px;
+    color: #D3D5D6;
+}

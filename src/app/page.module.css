@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex: 1;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.pagination a{
+    color: #D3D5D6;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #171D1F;
+}
+
+.pagination a:hover{
+    color: #FFFFFF;
+}
